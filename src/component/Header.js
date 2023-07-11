@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../UI/Button/Button';
 
 function Header(props) {
     return (
@@ -38,7 +39,7 @@ function Header(props) {
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle" />
                 </nav>{/* .navbar */}
-                <a href="#book-a-table" className="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+                <Link to={'/bookTabal'}><Button>Book Tabal</Button></Link>
             </div>
         </header>
     );

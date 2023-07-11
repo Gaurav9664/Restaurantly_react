@@ -8,6 +8,7 @@ import Abount from '../src/container/About';
 import Events from '../src/container/Events';
 import Menu from '../src/container/Menu';
 import Specials from '../src/container/Specials';
+import BookTabal from './container/BookTabal';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/events' element={<Events />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/specials' element={<Specials />} />
+        <Route path='/bookTabal' element={<BookTabal />} />
       </Routes>
       <Footer />
     </>

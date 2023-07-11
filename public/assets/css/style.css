@@ -75,7 +75,7 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/* .back-to-top {
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -107,7 +107,7 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -121,7 +121,7 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar {
+/* #topbar {
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -164,7 +164,7 @@ h6 {
   padding-right: 10px;
   color: rgba(255, 255, 255, 0.5);
   content: "/";
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
