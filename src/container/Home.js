@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../UI/Button/Button';
 import { Link } from 'react-router-dom';
+import Heading from '../UI/Heading/Heading'
 
 function Home(props) {
     return (
@@ -8,8 +9,8 @@ function Home(props) {
             <div className="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay={100}>
                 <div className="row">
                     <div className="col-lg-8">
-                        <h1>Welcome to <span>Restaurantly</span></h1>
-                        <h2>Delivering great food for more than 18 years!</h2>
+                        <Heading type={'h1'}>Welcome to <span>Restaurantly</span></Heading>
+                        <Heading type={'h2'}>Delivering great food for more than 18 years!</Heading>
                         <div className="btns">
                             <Link to={'/menu'} > <Button >Our Menu</Button> </Link>
                             <Link to={'/bookTabal'}><a href="#book-a-table" className="btn-book animated fadeInUp scrollto">Book a Table</a></Link>
