@@ -6,6 +6,8 @@ import { Routes, Route } from 'react-router-dom';
 import Home from '../src/container/Home';
 import Abount from '../src/container/About';
 import Events from '../src/container/Events';
+import Menu from '../src/container/Menu';
+import Specials from '../src/container/Specials';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/abount' element={<Abount />} />
         <Route path='/events' element={<Events />} />
+        <Route path='/menu' element={<Menu />} />
+        <Route path='/specials' element={<Specials />} />
       </Routes>
       <Footer />
     </>
